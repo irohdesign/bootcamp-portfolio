@@ -97,3 +97,26 @@ a:active {
 a:focus {
     background-color: goldenrod;
 }
+
+.icon-circle {
+    padding: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background: white;
+    transition: 1s ease;
+}
+
+#github:hover {
+    background: #6e5494;
+    fill: white;
+}
+
+#linkedin:hover {
+    background: #0077B5;
+    fill: white;
+}
+
+#email:hover {
+    background: #B23121;
+    fill: white;
+}
