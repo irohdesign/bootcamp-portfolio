@@ -12,15 +12,19 @@ body {
 }
 
 .headings {
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
+    margin: 15px;
+    font-weight: bold;
 }
 
 h1 {
     color: blue;
+    font-size: 30px;
 }
 
 h2 {
     color: darkblue;
+    font-size: 22px;
 }
 
 h3 {
@@ -32,6 +36,7 @@ img {
     padding: 10px;
     border: solid 10px black;
     transition: 1s;
+    margin: 30px auto;
 }
 
 img:hover {
