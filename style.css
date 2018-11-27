@@ -3,6 +3,24 @@ body {
     font-family: rubik;
 }
 
+#photo-header {
+    background-image: url('https://images.unsplash.com/photo-1513763472-e15c4ef4039e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0b6ee787181f34d9aae21517b04feb90&auto=format&fit=crop&w=1653&q=80');
+    height: 300px;
+    display: table;
+    width: 100%;
+    background-size: cover;
+}
+
+#photo-text {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: 5px 5px #555;
+    background: rgba(255, 255, 255, 0.08);
+}
+
 #text {
     background: rgba(255, 255, 255, 0.8);
     margin: 50px auto; 
