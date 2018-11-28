@@ -12,6 +12,18 @@ body {
     margin: 0px auto;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+main {
+    min-height: 100%;
+    margin-bottom: -100px;
+}
+
 #photo-header {
     background-image: url('../assets/background.png');
     height: 300px;
@@ -108,6 +120,7 @@ ul {
 
 li {
     margin: 10px;
+    display: inline-block;
 }
 
 a {
@@ -151,4 +164,17 @@ a:focus {
 #email:hover {
     background: #B23121;
     fill: white;
+}
+
+footer, .push {
+    height: 100px;
+}
+
+footer {
+    padding: 30px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
 }
