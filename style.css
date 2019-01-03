@@ -1,0 +1,184 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background: black;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* navbar */
+
+.navbar {
+    background: black !important;
+}
+
+.navbar a {
+    color: white !important;
+    transition: 1s ease;
+    font-family: rubik, helvetica, sans-serif;
+}
+
+.nav-item:hover a {
+    color: yellow !important;
+    text-decoration: line-through !important;
+}
+
+/* banner */
+
+.image-banner {
+    width: 100%;
+    height: 500px;
+    display: table;
+}
+
+.banner-text {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-text h1 {
+    font-size: 7em;
+    letter-spacing: 2px;
+    font-family: Permanent Marker, Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 10px 2px black;
+}
+
+#index-top {
+    background: url("https://images.unsplash.com/photo-1532566935714-0124cc63e805?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+#port-top {
+    background: url(./assets/rawpixel-752537-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#cont-top {
+    background: url(./assets/erik-lucatero-543541-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* about */
+
+#about {
+    background: #241623;
+    padding: 120px 0px;
+    color: white;
+}
+
+.img-frame {
+    padding: 5px;
+    border: solid 3px white;
+}
+
+#about a {
+    color: yellow !important;
+}
+
+#about a:hover {
+    text-decoration: hover;
+}
+
+/* work */
+
+#work {
+    background: white;
+    padding: 50px 0px;
+    font-family: rubik, sans-serif;
+}
+
+#work a:hover {
+    text-decoration: none;
+}
+
+#work a:hover h4 {
+    text-decoration: underline;
+}
+
+.work-wrapper {
+    margin: 50px auto;
+}
+
+.work-wrapper img {
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.col-md-6:hover img {
+    opacity: 0.7;
+}
+
+.work-wrapper p {
+    color: #666;
+}
+
+/* contact */
+
+#contact {
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contact a {
+    color: yellow !important;
+}
+
+#contact h3 {
+    font-family: rubik, sans-serif;
+}
+
+form {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px 50px;
+    text-align: left;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+
+
+/* media queries */
+
+@media only screen and (min-width: 1300px) {
+    #about h2 {
+        font-size: 4em;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-text h1 {
+        font-size: 4em;
+    }
+}
