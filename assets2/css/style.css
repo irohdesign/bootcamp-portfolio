@@ -1,0 +1,60 @@
+/* global */
+
+html, body {
+    height: 100%;
+    width: 100%:
+}
+
+/* nav */
+
+nav a {
+    color: black;
+    font-family: rubik;
+}
+
+nav ul li {
+    padding: 0px 20px;
+}
+
+/* landing */
+
+#landing {
+    height: 95%;
+    display: flex;
+}
+
+#tagline {
+    background: #248232;
+    width: 1000px;
+    max-width: 85%;
+    position: relative;
+    top: -40px;
+    padding: 5% 10%;
+    margin: auto;
+}
+
+#tagline h3 {
+    font-family: rubik;
+    color: white;
+    font-weight: 400;
+}
+
+#mouse {
+    height: 40px;
+    width: 20px;
+    border: solid 2px black;
+    border-radius: 10px;
+    position: absolute;
+    top: 90%;
+    left: 49%;
+}
+
+#mouse #ball {
+    height: 4px;
+    width: 4px;
+    border-radius: 100%;
+    background: black;
+    position: relative;
+    left: 6px;
+    top: 3px;
+}
